@@ -616,6 +616,14 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+#menu{
+  display: flex;
+ 
+}
+#menu p{
+  padding-right: 15px;
+  font-size: 15px;
+}
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -4677,6 +4685,8 @@ input[type="button"].btn-block {
 
 .card-deck .card {
   margin-bottom: 15px;
+  min-height: 100%;
+  width: auto; 
 }
 
 @media (min-width: 576px) {
