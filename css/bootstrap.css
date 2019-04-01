@@ -4957,14 +4957,38 @@ a.badge:focus {
 }
 .jumbotron {
   padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 650px;
+  color: white;
+  text-align: center;
+ 
+}
+.front{
+  background-image: url("../images/hero.jpg");
+  color: white;
+  padding-left: 20px;
+  padding-top: 15px;
+  background-repeat: no-repeat;
+
+}
+.lower{
+  background-color: red;
+  margin-top: 0px;
+ padding: 15px;
+}
+#botton{
+  float: left;
+}
+.menu{
+  display:inline-flex;
+  list-style: none;
+
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  line-height: 1.6;
 }
 .jumbotron p {
   margin-bottom: 15px;
