@@ -4970,15 +4970,14 @@ a.badge:focus {
   color: white;
   padding-left: 20px;
   padding-top: 15px;
+  margin-bottom: 0px;
   background-repeat: no-repeat;
-
 }
 .lower{
   background-color: #f7ecb5;
   margin-top: 0px;
  padding: 15px;
 }
-
 .menu{
   display:inline-flex;
   list-style: none;
